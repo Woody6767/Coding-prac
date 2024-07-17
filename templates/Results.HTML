@@ -1,0 +1,9 @@
+{% extends 'Base.html' %}
+{% block Body %}
+<h2>{{ the_title }}</h2>
+<p>You submitted the following temperature:</p>
+<table>
+<tr><td>Temp:</td><td>{{ the_temp }}</td></tr>
+</table>
+<p>{{the_temp }}" degrees celsius is {{ the_results }} fahrenheit</p>
+{% endblock %}
